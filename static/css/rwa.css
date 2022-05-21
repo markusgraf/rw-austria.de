@@ -27,7 +27,14 @@
     
 }
 .main-content-wrap {
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 0; /* remove center */
 
+}
+body {
+    line-height: normal;
+    font-family: "Open Sans", sans-serif;
+}
+.post .post-content {
+    font-family: "Open Sans", sans-serif
 }

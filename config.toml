@@ -77,29 +77,29 @@ canonifyurls = true
     identifier = "posts"
     url = "/event/"
   [[menu.main]]
-    name = "Stockbahn - Sport"
+    name = "Stockbahn "
     pre = "<i class=\"sidebar-button-icon fas fa-lg fa-skating\" aria-hidden=\"true\"></i>"
     weight = 3
     identifier = "stockbahnsport"
-    url = "/stockbahnSport/"
-  [[menu.main]]
-    name = "Stockbahn - Youngster"
-    pre = "<i class=\"sidebar-button-icon fas fa-lg fa-skating\" aria-hidden=\"true\"></i>"
-    weight = 4
-    identifier = "stockbahnyoungster"
-    url = "/stockbahnYoungster/"    
-  [[menu.main]]
-    name = "Berichte"
-    pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
-    weight = 5
-    identifier = "berichte"
-    url = "/berichte/" 
-  [[menu.main]]
-    name = "Bildergalerie"
-    pre = "<i class=\"sidebar-button-icon fas fa-lg fa-images\" aria-hidden=\"true\"></i>"
-    weight = 6
-    identifier = "galerie"
-    url = "/galerie/"               
+    url = "/stockbahnsport/"
+ # [[menu.main]]
+ #   name = "Stockbahn - Youngster"
+ #   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-skating\" aria-hidden=\"true\"></i>"
+ #   weight = 4
+ #   identifier = "stockbahnyoungster"
+ #   url = "/stockbahnYoungster/"    
+ # [[menu.main]]
+ #   name = "Berichte"
+ #   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
+ #   weight = 5
+ #   identifier = "berichte"
+ #   url = "/berichte/" 
+ # [[menu.main]]
+ #   name = "Bildergalerie"
+ #   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-images\" aria-hidden=\"true\"></i>"
+ #   weight = 6
+ #   identifier = "galerie"
+ #   url = "/galerie/"               
   [[menu.main]]
     name = "Impressum"
     pre = "<i class=\"sidebar-button-icon fas fa-lg fa-balance-scale\" aria-hidden=\"true\"></i>"

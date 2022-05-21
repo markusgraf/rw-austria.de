@@ -4,7 +4,8 @@ date: 2011-02-26
 draft: false
 showActions: false
 ---
-Brigitte Kammerer souveräne Vereinsmeisterin vor Erhard Wittek
+Brigitte Kammerer souveräne Vereinsmeisterin vor Erhard Wittek.
+<!--more-->
 
 **Brigitte Kammerer souveräne Vereinsmeisterin vor Erhard Wittek**
 
