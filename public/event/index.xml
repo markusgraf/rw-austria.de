@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Rot-Weiss-Austria e.V.</title>
+    <link>http://localhost:1313/event/</link>
+    <description>Recent content in Events on Rot-Weiss-Austria e.V.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Sun, 26 Dec 2021 12:55:57 +0100</lastBuildDate><atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Event</title>
+      <link>http://localhost:1313/event/my-first-event/</link>
+      <pubDate>Sun, 26 Dec 2021 12:55:57 +0100</pubDate>
+      
+      <guid>http://localhost:1313/event/my-first-event/</guid>
+      <description>&lt;p&gt;Hi!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RWA Vereins-Kegeln</title>
+      <link>http://localhost:1313/event/my-first-gallery/</link>
+      <pubDate>Sat, 26 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/event/my-first-gallery/</guid>
+      <description>&lt;p&gt;Brigitte Kammerer souveräne Vereinsmeisterin vor Erhard Wittek&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
