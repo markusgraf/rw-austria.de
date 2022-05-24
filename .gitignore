@@ -3,3 +3,5 @@ themes/blackburn
 node_modules
 .env
 .contentful-hugo/*
+public/*
+resources/*
