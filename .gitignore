@@ -2,3 +2,4 @@ themes/hugo-coder
 themes/blackburn
 node_modules
 .env
+.contentful-hugo/*
