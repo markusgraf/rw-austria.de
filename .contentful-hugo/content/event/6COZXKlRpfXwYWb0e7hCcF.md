@@ -1,1 +1,0 @@
-./content/event/contentful event 2.md

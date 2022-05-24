@@ -9,6 +9,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    env: 
+      CONTENTFUL_SPACE: ${{ secrets.CONTENTFUL_SPACE }}
+      CONTENTFUL_TOKEN: ${{ secrets.CONTENTFUL_TOKEN }}
+      CONTENTFUL_PREVIEW_TOKEN: ${{ secrets.CONTENTFUL_PREVIEW_TOKEN }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -35,15 +39,11 @@ jobs:
           restore-keys: npm-
 
       - name: Install dependencies
-        run: npm ci --ignore-scripts
+        run: npm ci
 
       - name: contentful
-        run: contentful-hugo
-        env: 
-          CONTENTFUL_SPACE: ${{ secrets.CONTENTFUL_SPACE }}
-          CONTENTFUL_TOKEN: ${{ secrets.CONTENTFUL_TOKEN }}
-          CONTENTFUL_PREVIEW_TOKEN: ${{ secrets.CONTENTFUL_PREVIEW_TOKEN }}
-      
+        run: npx contentful-hugo
+     
       - name: Build
         run: hugo --minify
 
