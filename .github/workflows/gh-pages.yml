@@ -38,7 +38,8 @@ jobs:
         run: npm ci
 
       - name: contentful
-        run: contentful-hugo
+        run: |
+          contentful-hugo
         env: 
           CONTENTFUL_SPACE: ${{ secrets.CONTENTFUL_SPACE }}
           CONTENTFUL_TOKEN: ${{ secrets.CONTENTFUL_TOKEN }}
